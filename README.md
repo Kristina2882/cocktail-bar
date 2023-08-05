@@ -24,6 +24,6 @@ Please note that you need npm (node package manager) to be installed to run belo
 * Clone this repo,
 * Install all the necessary packages using npm install command, 
 * Build the application using the command npm run build.
-* The entry point of the application is index.html located in src folder. Now you are ready to use it:))
+* The entry point of the application is index.html located in dist folder (this folder will be created automatically when running npm run build). Now you are ready to use it:))
 
 License - powered by The Cocktail DB API (https://www.thecocktaildb.com/)
