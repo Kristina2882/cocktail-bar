@@ -1,0 +1,65 @@
+<html lang="en-US">
+<head>
+  <title>🍹Cocktail-Bar</title>
+</head>
+<body>
+  <div class="container text-center">
+    <div class="header mt-2 mb-3">
+        <h2>Let's have some drink🧡</h3>
+    </div>
+
+    <div class="mt-2 mb-3 randomButtonC row" >
+      <div class="col-auto">
+      <form id="searchByName" class="row row-cols-md-auto g-2 align-items-center">
+          <div class="col-auto">
+           <label for="cName">What cocktail would you like?</label>
+         </div> 
+
+         <div class="col-auto">
+        <input type="text" id="cName" name="cName" class="form-control"/>
+        </div>
+        <div class="col-auto">
+        <button type="submit" class="btn btn-light" id="searchByNameBtn">Search!</button>
+        </div>
+        
+      </form>
+      </div>
+      <div class="col-auto">
+      <form id="searchByIngr" class="row row-cols-md-auto g-2 align-items-center">
+        <div class="col-auto">
+        <label for="cIngr">What do you like your cocktail with?</label>
+      </div>
+      <div class="col-auto">
+        <input type="text" id="cIngr" name="cIngr" class="form-control"/>
+       </div> 
+
+       <div class="col-auto">
+        <button type="submit" class="btn btn-light" id="searchByIngrBtn">Search!</button>
+       </div>
+
+      </form>
+    </div>
+     
+    <div class="col-auto">
+      <button class="btn btn-light" type="button" id="random">🍹I need advice! </button> 
+      </div>
+
+    </div>
+
+    <div class="row">
+
+   <div class="col">
+       
+    <h3  id="drink"></h3>
+      <div id="pic"></div>
+    </div>
+
+    <div class="col">
+    <div id="drinkRecipe"></div>
+    </div>
+    </div>
+
+</div>
+
+<script defer src="bundle.js"></script></body>
+</html>
